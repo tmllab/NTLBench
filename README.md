@@ -30,7 +30,7 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 - **UNTL** (EMNLP 2022): [Unsupervised Non-transferable Text Classification](https://arxiv.org/pdf/2210.12651)
 - **NTL** (ICLR 2022): [Non-Transferable Learning: A New Approach for Model Ownership Verification and Applicability Authorization](https://arxiv.org/pdf/2106.06916)
 
-👉 Summary of NTL methods according to **Field** (modal, task), **Data** (label space, target supervision, source data dependent), **Non-Transferable Approach** (feature or output space), and **Robustness** (whether source and target domain robustness have been evaluated)
+👉 Summary of NTL methods according to **Field** (modal, task), **Data** (label space, target supervision, source data dependent), **Non-Transferable Approach** (feature or output space), and **Robustness** (whether source and target domain robustness have been evaluated). 📝 More details please refer to our paper [[arXiv](https://arxiv.org/abs/2502.13593)].
 
 ![](figs/review.png)
 
@@ -40,18 +40,18 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 NTLBench is the first benchmark for **non-transferable learning** (NTL), which contains a standard and uniﬁed training and evaluation process. NTLBench supports **5 SOTA NTL methods**, **9 datasets** (more than 116 domain pairs), **5 network architectures families**, and **15 post-training attacks** from 3 attack settings, providing **more than 40,000** experimental conﬁgurations.
 
 ### Components
-- [x] NTL Training
+- [x] **NTL Training**
   - [x] `NTL` (ICLR 2022) [[Paper](https://arxiv.org/pdf/2106.06916)][[Code](https://github.com/conditionWang/NTL)]
   - [x] `CUTI-domain` (CVPR 2023) [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Model_Barrier_A_Compact_Un-Transferable_Isolation_Domain_for_Model_Intellectual_CVPR_2023_paper.pdf)][[Code](https://github.com/LyWang12/CUTI-Domain)]
   - [x] `H-NTL` (ICLR 2024) [[Paper](https://openreview.net/pdf?id=FYKVPOHCpE)][[Code](https://github.com/tmllab/NTLBench)]
   - [x] `SOPHON` (IEEE S&P 2024) [[Paper](https://arxiv.org/pdf/2404.12699)][[Code](https://github.com/ChiangE/Sophon)]
   - [x] `CUPI-domain` (T-PAMI 2024) [[Paper](https://arxiv.org/pdf/2408.13161)][[Code](https://github.com/LyWang12/CUPI-Domain)] 
-- [x] Source Domain Fine-Tuning
+- [x] **Source Domain Fine-Tuning**
   - [x] Fine-tuning Strategies (`initFC-all`, `initFC-FC`, `direct-FC`, `direct-all`)
   - [x] `TransNTL` (CVPR 2024) [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_Your_Transferability_Barrier_is_Fragile_Free-Lunch_for_Transferring_the_Non-Transferable_CVPR_2024_paper.pdf)][[Code](https://github.com/tmllab/2024_CVPR_TransNTL)]
-- [x] Target Domain Fine-Tuning
+- [x] **Target Domain Fine-Tuning**
   - [x] Fine-tuning Strategies (`initFC-all`, `initFC-FC`, `direct-FC`, `direct-all`)
-- [ ] Source-Free Domain Adaptation (coming soon 🤓)
+- [ ] **Source-Free Domain Adaptation** (coming soon 🤓)
   - [ ] `SHOT` (ICML 2020)
   - [ ] `CoWA` (ICML 2022)
   - [ ] `NRC` (NeurIPS 2021)
@@ -102,13 +102,13 @@ Please run the `NTL_postattack_src.py` to evaluate the robustness of each NTL me
 python NTL_postattack_src.py
 ```
 
-#### 4.2 Target Domain Fine-Tuning
+##### 4.2 Target Domain Fine-Tuning
 Please run the `NTL_postattack_tgt.py` to evaluate the robustness of each NTL method against target domain fine-tuning. You can select the fine-tuning attack under the assumption that the attacker can access parts of labeled target domain data.
 ```
 python NTL_postattack_tgt.py
 ```
 
-#### 4.3 Source-Free Domain Adaptation
+##### 4.3 Source-Free Domain Adaptation
 Please also run the `NTL_postattack_tgt.py` to evaluate the robustness of each NTL method against SFDA methods using **unlabeled** target domain. You can select the fine-tuning attack under the assumption that the attacker can access parts of unlabeled target domain data.
 ```
 python NTL_postattack_tgt.py
