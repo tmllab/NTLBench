@@ -21,6 +21,7 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 📌 We are actively tracking and updating the latest research about NTL. 
 - **NEs** (arXiv 2026): [Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization](https://arxiv.org/pdf/2510.10982)
 - **MAP++** (IJCV 2026): [Dynamic MAsk-Pruning Strategy for Source-Free Model Intellectual Property Protection](https://link.springer.com/article/10.1007/s11263-025-02619-9)
+- **UVT** (DSPP 2025): [Bypassing Cross-Domain Restrictions with Unsupervised Visual Translation](https://link.springer.com/chapter/10.1007/978-981-95-3185-1_15)
 - **ATEsc** (ICML 2025): [When Data-Free Knowledge Distillation Meets Non-Transferable Teacher: Escaping Out-of-Distribution Trap is All You Need](https://arxiv.org/pdf/2507.04119)
 - **IP-CLIP** (CVPR 2025): [Vision-Language Model IP Protection via Prompt-based Learning](https://arxiv.org/pdf/2503.02393)
 - **JailNTL** (CVPR 2025): [Jailbreaking the Non-Transferable Barrier via Test-Time Data Disguising](https://github.com/tmllab/2025_CVPR_JailNTL)
