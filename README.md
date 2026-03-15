@@ -19,8 +19,10 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 ## Survey
 
 📌 We are actively tracking and updating the latest research about NTL. 
+- **DDL** (TIFS 2026): [Your Non-Transferable Learning is Fragile: Practical Breach of Protected Models](https://ieeexplore.ieee.org/abstract/document/11426974)
 - **NEs** (arXiv 2026): [Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization](https://arxiv.org/pdf/2510.10982)
 - **TCRL** (OpenReview 2026): [Transfer-Controllable Policy for Model Protection in Deep Reinforcement Learning](https://openreview.net/forum?id=IBKZTaJa0U)
+- **SDUT** (Computer Standards & Interfaces 2026): [Breaking cross-domain model protection via surrogate-guided unsupervised distribution transformation](https://www.sciencedirect.com/science/article/pii/S0920548926000152)
 - **MAP++** (IJCV 2026): [Dynamic MAsk-Pruning Strategy for Source-Free Model Intellectual Property Protection](https://link.springer.com/article/10.1007/s11263-025-02619-9)
 - **UVT** (DSPP 2025): [Bypassing Cross-Domain Restrictions with Unsupervised Visual Translation](https://link.springer.com/chapter/10.1007/978-981-95-3185-1_15)
 - **ATEsc** (ICML 2025): [When Data-Free Knowledge Distillation Meets Non-Transferable Teacher: Escaping Out-of-Distribution Trap is All You Need](https://arxiv.org/pdf/2507.04119)
