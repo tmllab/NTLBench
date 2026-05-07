@@ -19,6 +19,7 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 ## Survey
 
 📌 We are actively tracking and updating the latest research about NTL. 
+- **CNIE** (TMM 2026): [CNIE: Content-Aware Non-Transferable Information Extraction for Fine-Grained Visual Categorization](https://ieeexplore.ieee.org/abstract/document/11489513)
 - **PMP** (arXiv 2026): [Towards Building Non-Fine-Tunable Foundation Models](https://arxiv.org/pdf/2602.00446)
 - **AoD-IP** (CVPR 2026): [Authorize-on-Demand: Dynamic Authorization with Legality-Aware Intellectual Property Protection for VLMs](https://arxiv.org/abs/2603.04896)
 - **DDL** (TIFS 2026): [Your Non-Transferable Learning is Fragile: Practical Breach of Protected Models](https://ieeexplore.ieee.org/abstract/document/11426974)
