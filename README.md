@@ -19,12 +19,12 @@ We bridge this gap by 👉 presenting the [first comprehensive survey](https://g
 ## Survey
 
 📌 We are actively tracking and updating the latest research about NTL. 
+- **NEs** (NeurIPS 2026): [Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization](https://arxiv.org/pdf/2510.10982)
 - **ENL-DEE** (CVPR 2026): [Adaptive Bayesian Early-Exit Networks for Efficient Non-Transferable Learning](https://openaccess.thecvf.com/content/CVPR2026/html/Luan_Adaptive_Bayesian_Early-Exit_Networks_for_Efficient_Non-Transferable_Learning_CVPR_2026_paper.html)
 - **AoD-IP** (CVPR 2026): [Authorize-on-Demand: Dynamic Authorization with Legality-Aware Intellectual Property Protection for VLMs](https://arxiv.org/abs/2603.04896)
 - **CNIE** (TMM 2026): [CNIE: Content-Aware Non-Transferable Information Extraction for Fine-Grained Visual Categorization](https://ieeexplore.ieee.org/abstract/document/11489513)
 - **PMP** (arXiv 2026): [Towards Building Non-Fine-Tunable Foundation Models](https://arxiv.org/pdf/2602.00446)
 - **DDL** (TIFS 2026): [Your Non-Transferable Learning is Fragile: Practical Breach of Protected Models](https://ieeexplore.ieee.org/abstract/document/11426974)
-- **NEs** (arXiv 2026): [Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization](https://arxiv.org/pdf/2510.10982)
 - **TCRL** (OpenReview 2026): [Transfer-Controllable Policy for Model Protection in Deep Reinforcement Learning](https://openreview.net/forum?id=IBKZTaJa0U)
 - **SDUT** (Computer Standards & Interfaces 2026): [Breaking cross-domain model protection via surrogate-guided unsupervised distribution transformation](https://www.sciencedirect.com/science/article/pii/S0920548926000152)
 - **MAP++** (IJCV 2026): [Dynamic MAsk-Pruning Strategy for Source-Free Model Intellectual Property Protection](https://link.springer.com/article/10.1007/s11263-025-02619-9)
